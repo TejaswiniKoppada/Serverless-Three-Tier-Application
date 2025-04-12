@@ -1,0 +1,14 @@
+Query-1
+	CREATE TABLE users ( 
+		email VARCHAR(255) NOT NULL,
+		firstName VARCHAR(100), 
+		lastName VARCHAR(100),
+		phone VARCHAR(15), 
+		birthday DATE, position VARCHAR(100), 
+		courseLevel VARCHAR(50), 
+		timeSlot VARCHAR(50), 
+		PRIMARY KEY (email)
+	);
+
+Query-2
+	SELECT * FROM users;
